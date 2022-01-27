@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html-{
+    scroll-behavior: smooth;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.center{
+    display: flex;
+    align-items: center;
+}
+header{
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #242526;
+    padding: 0px 20px;
+}
+.search_area{
+    flex-basis: 320px;
+    flex-grow: 0px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.search_area .logo{
+width: 40px;
+height: 40px;
+}
+
+.search_area .logo a{
+    text-decoration: none;
+    display: block;
+}
+.search_area .logo  img{
+    width: 100%;
+}
+.search{
+    height: 40px;
+    width: 240px;
+    border-radius: 25px;
+color: #1a3b3e;
+display: flex;
+align-items: center;
+padding: 0 15px;
+}
+.search input{
+    flex-grow: 1;
+}
+
+.menu_toggoler{
+    display: none;
+}
+nav ul li a{
+    display: inline-block;
+   padding: 10px 40px;
+   border-radius: 8px;
+   transition: 0.5s;
+   position: relative;
+}
+
+nav ul li:last-child{
+    display: flex;
+}
+.group{
+    display: none;
+}
+nav ul li a:hover{
+    background-color: #4f5050;
+}
+
+nav ul li a::after{
+    display: none;
+    content: attr(data-tag);
+    background-color: rgb(206, 197, 197);
+    position:absolute;
+bottom: 34px;
+left: 50%;
+color: rgb(20, 19, 19);
+transform: translate(-50%);
+font-size: 14px;
+padding: 8px 10px;
+border-radius: 8px;
+}
+
+nav ul li a:hover::after{
+display: block;
+}
+
+nav ul li:first-child a:hover{
+    background: unset;
+    border-radius: unset;
+}
+
+nav ul li:first-child a{
+    padding: 7px;
+    border-bottom: 7px solid blue;
+}
+
+.profile_section ul li{
+    margin: 0 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.profile_section ul li:nth-child(3){
+    display: none;
+}
+.profile_section ul li :hover{
+    background: #8b8b8b;
+}
+
+.profile_section ul li span, .profile_section ul li span i{
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+
+    }
+
+.profile_section ul li:first-child img{
+    height: 28px;
+    width: 28px;
+border-radius: 50%;
+margin-right: 5px;
+}
+
+.profile_section ul li:first-child{
+    color: white;
+    padding: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+    height: unset;
+    width: unset;
+    background: unset;
+}
+.profile_section ul li:first-child:hover{
+    background: #4f5050;
+}
+

@@ -176,6 +176,15 @@ background: #1C1E21;
     padding: 56px 15px 0 15px;
     background: #1C1E21;
 }
+
+.left_aside ul{
+    width: 100%;
+}
+
+.left_aside ul li{
+    display: flex;
+    align-items: center;
+}
 .meddile_section{
     flex-grow: 1;
 background: rgb(97, 93, 93);

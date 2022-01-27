@@ -154,3 +154,21 @@ margin-right: 5px;
     background: #4f5050;
 }
 
+main{
+    max-width: 1464px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;   
+}
+
+.left_aside, .right_aside{
+    flex-basis: 330px;
+    height: 100vh;
+    background: green;
+}
+.meddile_section{
+    flex-grow: 1;
+background: rgb(97, 93, 93);
+}
+

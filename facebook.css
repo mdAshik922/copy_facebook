@@ -185,6 +185,10 @@ background: #1C1E21;
     display: flex;
     align-items: center;
 }
+
+.left_aside ul li:first-child img{
+    
+}
 .meddile_section{
     flex-grow: 1;
 background: rgb(97, 93, 93);

@@ -163,6 +163,7 @@ main{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;   
+background: #1C1E21;
 }
 
 .left_aside, .right_aside{

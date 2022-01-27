@@ -16,6 +16,10 @@
     .profile_section ul li:nth-child(1){
         display: none;
     }
+
+    .left_aside{
+display: none;
+    }
 }
 
 @media(max-width: 992px){
@@ -30,5 +34,9 @@
     .menu_toggoler{
         color: white;
         font-size: 23px;
+    }
+
+    .right_aside{
+        display: none;
     }
 }

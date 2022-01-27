@@ -154,6 +154,9 @@ margin-right: 5px;
     background: #4f5050;
 }
 
+header{
+    
+}
 main{
     max-width: 1464px;
     width: 100%;
@@ -166,9 +169,14 @@ main{
     flex-basis: 330px;
     height: 100vh;
     background: green;
+    padding-top: 56px;
+}
+.left_aside{
+    padding: 56px 15px 0 15px;
 }
 .meddile_section{
     flex-grow: 1;
 background: rgb(97, 93, 93);
+padding-top: 56px;
 }
 

@@ -262,6 +262,7 @@ background: #4f5050;
 background: unset;
 border: none;
 outline: none;
+transition: 0.2s;
 padding: 7px;
 color: rgba(30, 101, 255);
 background: #4f5050;
@@ -270,6 +271,11 @@ background: #4f5050;
 
 .shortcut_separator:hover button{
     display: block;
+}
+
+.shortcut_separator button:hover{
+    background: #4f5050;
+    cursor: pointer;
 }
 .meddile_section {
     flex-grow: 1;

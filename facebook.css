@@ -170,8 +170,6 @@ nav ul li:first-child a {
     background: #4f5050;
 }
 
-header {}
-
 main {
     max-width: 1464px;
     width: 100%;
@@ -195,23 +193,32 @@ main {
     overflow: auto;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 10px;
 }
-::-webkit-scrollbar-track{
+
+::-webkit-scrollbar-track {
     background: unset;
 }
-::-webkit-scrollbar-track:hover{
+
+::-webkit-scrollbar-track:hover {
     background: #3A3B3C;
 }
-::-webkit-scrollbar-thumb{
+
+::-webkit-scrollbar-thumb {
     background: #444444;
     border-radius: 25px;
     display: none;
 }
-::-webkit-scrollbar-thumb:hover{
+
+.left_aside:hover::-webkit-scrollbar-thumb{
+    display: block;
+}
+
+::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
 .left_menu {
     width: 100%;
     margin-bottom: 20px;
@@ -225,25 +232,26 @@ main {
     cursor: pointer;
     transition: 0.2s;
 }
-.left_menu li:hover{
+
+.left_menu li:hover {
     background: #3a3b3c;
 }
 
-.left_menu li img{
+.left_menu li img {
     height: 28px;
     width: 28px;
     margin-right: 8px;
 }
 
 .left_menu li {
-color: white;
+    color: white;
 }
 
 .left_menu li:first-child img {
-border-radius: 50%;
+    border-radius: 50%;
 }
 
-.left_menu li:last-child div{
+.left_menu li:last-child div {
     margin-right: 8px;
     height: 28px;
     width: 28px;
@@ -252,21 +260,22 @@ border-radius: 50%;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-} 
-.saparator{
-width: 100%;
-height: 1px;
-background: #4f5050;
 }
 
-.shortcut_separator{
+.saparator {
+    width: 100%;
+    height: 1px;
+    background: #4f5050;
+}
+
+.shortcut_separator {
     margin-top: 22px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.shortcut_separator h2{
+.shortcut_separator h2 {
     font-weight: 600;
     font-size: 16px;
     color: #b0b3b8;
@@ -275,25 +284,37 @@ background: #4f5050;
     align-items: center;
 }
 
-.shortcut_separator button{
+.shortcut_separator button {
     display: none;
-background: unset;
-border: none;
-outline: none;
-transition: 0.2s;
-padding: 7px;
-color: rgba(30, 101, 255);
-background: #4f5050;
-
+    background: unset;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    padding: 7px;
+    color: rgba(30, 101, 255);
+    background: #4f5050;
 }
 
-.shortcut_separator:hover button{
+.shortcut_separator:hover button {
     display: block;
 }
 
-.shortcut_separator button:hover{
+.shortcut_separator button:hover {
     background: #4f5050;
     cursor: pointer;
+}
+
+.footer_text {
+margin-bottom: 25px;
+}
+.footer_text a{
+    font-size: 12px;
+    color: #adadad;
+    font-weight: 400
+}
+
+.footer_text a span{
+    transform: translateY(8px);
 }
 .meddile_section {
     flex-grow: 1;

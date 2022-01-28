@@ -252,9 +252,13 @@ background: #4f5050;
     font-weight: 600;
     font-size: 16px;
     color: #b0b3b8;
+    height: 30px;
+    display: flex;
+    align-items: center;
 }
 
 .shortcut_separator button{
+    display: none;
 background: unset;
 border: none;
 outline: none;
@@ -262,6 +266,10 @@ padding: 7px;
 color: rgba(30, 101, 255);
 background: #4f5050;
 
+}
+
+.shortcut_separator:hover button{
+    display: block;
 }
 .meddile_section {
     flex-grow: 1;

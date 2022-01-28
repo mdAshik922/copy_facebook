@@ -192,6 +192,7 @@ main {
 .left_aside {
     padding: 56px 15px 0 15px;
     background: #1C1E21;
+    overflow: auto;
 }
 
 .left_menu {

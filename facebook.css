@@ -195,6 +195,16 @@ main {
     overflow: auto;
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: unset;
+}
+::-webkit-scrollbar-thumb{
+    background: #777777;
+    border-radius: 25px;
+}
 .left_menu {
     width: 100%;
     margin-bottom: 20px;

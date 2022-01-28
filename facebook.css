@@ -194,34 +194,44 @@ main {
     background: #1C1E21;
 }
 
-.left_aside ul {
+.left_menu {
     width: 100%;
 }
 
-.left_aside ul li {
+.left_menu li {
     display: flex;
     align-items: center;
-    padding: 5px;
+    padding: 7px 5px;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.2s;
 }
-.left_aside ul li:hover{
+.left_menu li:hover{
     background: #3a3b3c;
 }
 
-.left_aside ul li img{
+.left_menu li img{
     height: 28px;
     width: 28px;
     margin-right: 8px;
 }
-.left_aside ul li {
+.left_menu li {
 color: white;
 }
-.left_aside ul li:first-child img {
+.left_menu li:first-child img {
 border-radius: 50%;
 }
 
+.left_menu li:last-child div{
+    margin-right: 8px;
+    height: 28px;
+    width: 28px;
+    background: #4f5050;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+} 
 .meddile_section {
     flex-grow: 1;
     background: rgb(97, 93, 93);

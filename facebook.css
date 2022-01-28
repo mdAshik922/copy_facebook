@@ -215,9 +215,11 @@ main {
     width: 28px;
     margin-right: 8px;
 }
+
 .left_menu li {
 color: white;
 }
+
 .left_menu li:first-child img {
 border-radius: 50%;
 }
@@ -232,6 +234,9 @@ border-radius: 50%;
     justify-content: center;
     border-radius: 50%;
 } 
+.saparator{
+
+}
 .meddile_section {
     flex-grow: 1;
     background: rgb(97, 93, 93);

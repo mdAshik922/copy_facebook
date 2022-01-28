@@ -201,9 +201,16 @@ main {
 ::-webkit-scrollbar-track{
     background: unset;
 }
+::-webkit-scrollbar-track:hover{
+    background: #3A3B3C;
+}
 ::-webkit-scrollbar-thumb{
-    background: #777777;
+    background: #444444;
     border-radius: 25px;
+    display: none;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #555;
 }
 .left_menu {
     width: 100%;

@@ -201,10 +201,13 @@ main {
 .left_aside ul li {
     display: flex;
     align-items: center;
-    margin: 6px 0px;
     padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.left_aside ul li:hover{
     background: #3a3b3c;
-    transition: .2s;
 }
 
 .left_aside ul li img{

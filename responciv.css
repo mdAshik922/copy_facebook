@@ -22,6 +22,63 @@ display: none;
     }
 }
 
+.right_header ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .right_header ul li {
+    display: flex;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right_header ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e4e6eb;
+    padding: 4px 8px;
+    border-radius: 18px;
+    transition: 0.2s;
+  }
+  .right_header ul li a:hover {
+    background: #3a3b3c;
+  }
+  .right_header ul li a img {
+    border-radius: 25px;
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+    margin-right: 5px;
+  }
+  .right_header li {
+    height: 40px;
+    width: 40px;
+    background: #3a3b3c;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .right_header li:hover {
+    background: #777;
+  }
+  .right_header li:first-child {
+    background-color: unset;
+    margin-right: 20px;
+  }
+  .right_header li span,
+  .fa-facebook-messenger {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+  }
+  
+
 @media(max-width: 992px){
     nav{
         display: block;

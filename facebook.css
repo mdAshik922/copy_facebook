@@ -97,7 +97,7 @@ nav ul li a:hover {
 nav ul li a::after {
     display: none;
     content: attr(data-tag);
-    background-color: rgb(206, 197, 197);
+    background: rgb(206, 197, 197);
     position: absolute;
     bottom: 34px;
     left: 50%;

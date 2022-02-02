@@ -903,9 +903,10 @@ display: none;
     display: flex;
     align-items: center;
     margin-right: 5px;
+    
   }
   .likes div img {
-    width: 20px;
+    width: 25px;
     cursor: pointer;
     border: 1px solid black;
     border-radius: 50%;
@@ -954,6 +955,7 @@ display: none;
   }
   .actions ul li img {
     margin-right: 5px;
+    width: 25px;
   }
   
   .bottom .divider {

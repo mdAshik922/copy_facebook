@@ -414,9 +414,11 @@ display: none;
     margin-left: 15px;
     cursor: pointer;
   }
+
   .contacts .top ul li:hover {
     background: #3a3b3c;
   }
+  
   .contacts .top ul li span {
     color: #b8bbbf;
     font-size: 22px;
@@ -437,7 +439,7 @@ display: none;
     border-radius: 8px;
     transition: 0.2s;
   }
-  
+
   .active_contacts ul li:hover {
     background: #3a3b3c;
   }

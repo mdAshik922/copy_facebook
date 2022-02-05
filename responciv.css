@@ -437,15 +437,18 @@ display: none;
     border-radius: 8px;
     transition: 0.2s;
   }
+  
   .active_contacts ul li:hover {
     background: #3a3b3c;
   }
+
   .contact_icon {
     width: 30px !important;
     height: 30px !important;
     margin-right: 10px;
     position: relative;
   }
+
   .contact_icon::after {
     content: "";
     background: #31a24c;
@@ -461,6 +464,7 @@ display: none;
     width: 30px;
     object-fit: cover;
   }
+
   .group_conversation h4 {
     color: #b0b3b8;
     font-size: 16px;
@@ -506,7 +510,7 @@ display: none;
     background: #525355;
     border-radius: 50%;
   }
-  
+
   .more_story span {
     font-size: 25px;
     color: #c2c2c2;

@@ -888,13 +888,14 @@ display: none;
     border-radius: 2px;
     object-fit: cover;
   }
+  
   .reactions {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px 0;
   }
-  
+
   .likes {
     display: flex;
     align-items: center;

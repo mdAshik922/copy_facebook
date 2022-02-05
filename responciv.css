@@ -561,10 +561,12 @@ display: none;
     align-items: center;
     border: 3px solid #292b2e;
   }
+  
   .story_plus span {
     font-size: 30px;
     color: white;
   }
+
   .create_story_bottom h6 {
     color: white;
     text-align: center;
@@ -602,6 +604,7 @@ display: none;
     overflow: hidden;
     border: 3px solid #297be5;
   }
+
   .story_avater img {
     width: 100%;
     object-fit: cover;
@@ -623,13 +626,14 @@ display: none;
     justify-content: space-between;
     align-items: center;
   }
+
   .create_post .top .profile {
     border-radius: 50%;
     overflow: hidden;
     width: 40px;
     height: 40px;
   }
-  
+
   .create_post .top .profile img {
     width: 100%;
   }

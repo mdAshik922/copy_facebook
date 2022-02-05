@@ -894,12 +894,13 @@ display: none;
     align-items: center;
     padding: 5px 0;
   }
+  
   .likes {
     display: flex;
     align-items: center;
     color: white;
   }
-  
+
   .likes div {
     display: flex;
     align-items: center;

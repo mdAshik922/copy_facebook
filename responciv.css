@@ -753,6 +753,7 @@ display: none;
     cursor: pointer;
     transition: 0.3s;
   }
+  
   .create_room button:hover {
     background: #3a3b3c;
   }
@@ -791,7 +792,7 @@ display: none;
   .post {
     padding: 15px 0 4px;
   }
-  
+
   .post_title {
     padding: 0 15px;
     display: flex;

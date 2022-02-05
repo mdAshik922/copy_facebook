@@ -506,12 +506,13 @@ display: none;
     background: #525355;
     border-radius: 50%;
   }
+  
   .more_story span {
     font-size: 25px;
     color: #c2c2c2;
     cursor: pointer;
   }
-  
+
   .story {
     height: 220px;
     flex-basis: 111px;

@@ -877,9 +877,11 @@ display: none;
   .post_article a {
     color: #3982e4;
   }
+
   .video {
     margin-top: 15px;
   }
+  
   .video iframe,
   .video img {
     width: 100%;
@@ -888,7 +890,7 @@ display: none;
     border-radius: 2px;
     object-fit: cover;
   }
-  
+
   .reactions {
     display: flex;
     justify-content: space-between;

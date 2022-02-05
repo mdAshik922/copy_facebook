@@ -778,6 +778,7 @@ display: none;
     cursor: pointer;
     transition: 0.3s;
   }
+
   .more_room:hover {
     background: #525355;
   }
@@ -786,9 +787,11 @@ display: none;
     font-size: 30px;
     color: white;
   }
+
   .post {
     padding: 15px 0 4px;
   }
+  
   .post_title {
     padding: 0 15px;
     display: flex;
@@ -881,7 +884,7 @@ display: none;
   .video {
     margin-top: 15px;
   }
-  
+
   .video iframe,
   .video img {
     width: 100%;

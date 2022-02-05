@@ -629,9 +629,11 @@ display: none;
     width: 40px;
     height: 40px;
   }
+  
   .create_post .top .profile img {
     width: 100%;
   }
+
   .create_post .top input {
     flex: 1;
     border: 0;
@@ -753,7 +755,7 @@ display: none;
     cursor: pointer;
     transition: 0.3s;
   }
-  
+
   .create_room button:hover {
     background: #3a3b3c;
   }
